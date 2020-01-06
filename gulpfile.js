@@ -11,7 +11,7 @@ var environment = process.env.NODE_ENV || 'development';
 //根据自己开发的实际需求自行设置， src放开发文件， dist是打包压缩后的导出目录
 const folder = {
     gsrc: 'src/',
-    src: 'src/vw_home/',
+    src: 'src/vw_skoda/',
     // dist: 'D:\\WORK\\para-node\\webapp\\csvw\\'
     dist: 'dist/' //
 };

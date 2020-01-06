@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SKODA</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div id="top">
+    <img class="logo" src="img/logo.png">
+</div>
+<div id="container">
+    <div id="login-box">
+        <form>
+            <div class="title">
+                统一身份认证登录
+            </div>
+            <div class="input-box phone">
+                <input name="phone" class="phone-val" placeholder="请输入手机号">
+            </div>
+            <div class="input-box vcode">
+                <input name="vcode" class="vcode-val" placeholder="请输入图片验证码">
+                <span class="right-box">
+                            <img style="display: none" src="#">
+                        </span>
+            </div>
+            <div class="input-box sms">
+                <input name="smscode" class="sms-val" placeholder="请输入验证码">
+                <span class="right-box">
+                            <div class="sms-btn">获取验证码</div>
+                        </span>
+            </div>
+            <div class="submit-btn">
+                登录
+            </div>
+            <div class="check-tips">
+                <input type="checkbox" name="protocol">
+                <span>我已阅读并同意《用户条款》和《隐私政策》</span>
+            </div>
+
+        </form>
+    </div>
+    <!-- add -->
+</div>
+<div id="bottom">
+    <span>上汽大众汽车有限公司|法律申明|沪ICP备08007566号-28</span>
+</div>
+<div id="msg-box">
+    <div class="content">
+        <div class="title"></div>
+        <div class="tips"></div>
+    </div>
+</div>
+</body>
+<script>
+    window.$projcet = 'VW';
+</script>
+
+</html>
